@@ -20,6 +20,10 @@ public class User {
 		this.profilePhoto = profilePhoto;
 	}
 
+	public void add(String message) {
+		System.out.println("Log to user" + message);
+	}
+
 	public int getId() {
 		return id;
 	}

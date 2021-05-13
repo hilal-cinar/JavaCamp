@@ -4,6 +4,10 @@ public class Student extends User {
 
 	private String DateOfRegistration;
 
+	public void add(String message) {
+		System.out.println("Log to student" + message);
+	}
+
 	public Student() {
 	}
 

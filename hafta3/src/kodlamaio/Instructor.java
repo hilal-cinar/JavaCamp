@@ -14,6 +14,10 @@ public class Instructor extends User {
 		this.detail = detail;
 	}
 
+	public void add(String message) {
+		System.out.println("Log to Instructor" + message);
+	}
+
 	public String getPhoneNumber() {
 		return phoneNumber;
 	}
